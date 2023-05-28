@@ -1,0 +1,98 @@
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardContent {
+  width: 381px;
+  height: 959px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.image {
+  display: flex;
+  width: 379px;
+  height: 380px;
+  filter: drop-shadow(12px 12px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 20px 20px 0px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nome {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  text-align: center;
+  color: #2A636B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto {
+  font-family: 'Mukta', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 37px;
+  text-align: center;
+  color: #2A636B;
+  padding-top: 1.5rem 2rem 0rem 2rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 273px;
+  height: 53px;
+  background: rgba(178, 197, 198, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 29px;
+  margin: 2rem auto;
+}
+
+/* Estilos responsivos */
+
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    flex-wrap: wrap;
+  }
+
+  .cardContent {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 480px) {
+  .cardContent {
+    padding: 1rem;
+  }
+  
+  .nome {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  .texto {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .button {
+    width: 100%;
+    max-width: 300px;
+  }
+}

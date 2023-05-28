@@ -1,0 +1,150 @@
+.footerContainer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-image: url('/onda.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: transparent;
+  padding-top: 450px;
+}
+
+.logoFooter {
+  margin: 0px auto;
+}
+
+.infos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.adress {
+  width: 100%;
+  max-width: 400px;
+  margin-right: 2rem;
+}
+
+.adress h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  color: #2A636B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
+
+.adress p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A636B;
+  padding-top: .5rem;
+}
+
+.contact {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.contact h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  color: #2A636B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
+
+.contact p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2A636B;
+  padding-top: .5rem;
+}
+
+.socials {
+  width: 100%;
+  max-width: 400px;
+}
+
+.socials h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  color: #2A636B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons ul {
+  list-style: none;
+}
+
+.line {
+  padding-left: 5rem;
+}
+
+.copyright{
+  color:#2A636B;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding-top: 150px;
+    background-color: #b2c5c6;
+  }
+
+  .infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logoFooter{
+    width: 272px;
+  }
+
+  .adress,
+  .contact,
+  .socials {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    max-width: 100%;
+  }
+
+  .adress,
+  .contact,
+  .socials p{
+    text-align: center;
+  }
+
+  .line {
+   display: none;
+  }
+
+  .copyright{
+    text-align: center;
+  }
+}

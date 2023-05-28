@@ -1,0 +1,26 @@
+.container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.examesConatiner{
+  background-image: url('../../public/examesbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  
+}
+
+.navbar{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario{
+display: flex;
+justify-content: center;
+align-items: center;
+}

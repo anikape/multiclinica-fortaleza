@@ -1,0 +1,132 @@
+.bg{
+  background-image: url(../../public/exames2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:1288px;
+  height:   989px;
+  box-shadow: inset 16px 16px 20px rgba(0, 0, 0, 0.25);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 33px;
+margin-top: 50px;
+padding-top: 30px;
+}
+
+.sides{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 2rem 1.5rem 2rem;
+}
+
+.left{
+
+  background-image: url('../../public/exames2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 16px 16px 20px rgba(0, 0, 0, 0.25);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 33px 0px 0px 33px;
+width:559px;
+height:844px;
+}
+
+.rigth{
+  background: rgba(255, 255, 255, 0.7);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 16px 16px 20px rgba(0, 0, 0, 0.25);
+border-radius: 0px 33px 33px 0px;
+width:559px;
+height:844px;
+}
+
+.formContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+   
+}
+
+
+.formContainer h1{
+  color:  #2A636B;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.formContainer div{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.formContainer label{
+font-weight: 400;
+font-size: 21px;
+line-height: 26px;
+color: #2A636B;
+width: 268px;
+height: 42px;
+}
+
+.formContainer input{
+width: 360px;
+height: 36px;
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid rgba(42, 99, 107, 0.5);
+box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.25), inset -16px -16px 20px rgba(0, 0, 0, 0.25);
+border-radius: 59px;
+outline: none;
+}
+
+.option{
+  width: 360px;
+height: 36px;
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid rgba(42, 99, 107, 0.5);
+box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.25), inset -16px -16px 20px rgba(0, 0, 0, 0.25);
+border-radius: 59px;
+
+}
+
+.exames{
+  width: 360px;
+height: 36px;
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid rgba(42, 99, 107, 0.5);
+box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.25), inset -16px -16px 20px rgba(0, 0, 0, 0.25);
+border-radius: 59px;
+outline: none;
+
+}
+
+.opcoesExames{
+  color: #2A636B;
+  font-size: 25px;
+  line-height: 31px;
+}
+
+.formContainer button{
+  width: 161px;
+height: 37px;
+background: rgba(178, 197, 198, 0.74);
+border: 1px solid rgba(42, 99, 107, 0.5);
+box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.25), inset -16px -16px 20px rgba(0, 0, 0, 0.25);
+border-radius: 59px;
+color: #2A636B;
+margin-top: 15px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-weight: 400;
+font-size: 25px;
+line-height: 31px;
+}
+
+
+
+
+

@@ -1,0 +1,152 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -8px -8px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+  width: 1319px;
+  height: 121px;
+
+}
+
+.navbarLogo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+.itens {
+  display: flex;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 29px;
+  width: 185px;
+  height: 53px;
+  left: 479px;
+  top: 74px;
+  align-items: center;
+  justify-content: center;
+}
+
+.itensFour {
+  padding-right: 10px;
+}
+
+.navbarToggle {
+  display: none;
+}
+
+.navbarLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navbarLinks.open {
+  display: block;
+}
+
+.navbarItem {
+  margin-right: 10px;
+  color: #2A636B;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .navbarToggle {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .navbarLinks {
+    display: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbarLinks.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .navbarLtem {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 400px;
+    height: 150px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .navbarLogo {
+    padding-left: 5px;
+    font-size: 1rem;
+  }
+
+  .itens {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .itensFour {
+    padding-right: 5px;
+  }
+
+  .navbarToggle {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .navbarToggle svg{
+    height: 3em;
+    width: 3em;
+  }
+
+  .navbarLinks {
+    display: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbarLinks.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .navbarItem {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+}

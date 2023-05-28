@@ -1,0 +1,36 @@
+.headerConatiner {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 440px;
+  background-image: url('../../public/bgHeader.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.25));
+}
+
+.navContainer {
+  padding-top: 30px;
+}
+
+/* Estilos responsivos */
+
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+  .header {
+    height: 300px;
+  }
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 480px) {
+  .header {
+    height: 200px;
+  }
+}
