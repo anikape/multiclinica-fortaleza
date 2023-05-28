@@ -2,6 +2,7 @@
 import React from 'react';
 import { CCard, CCardImage, CCardBody, CButton, CCardTitle, CCardText } from '@coreui/react';
 import styles from './cards.module.css'
+import Link from 'next/link';
 
 const Card = () => {
   const cards = [
@@ -26,7 +27,7 @@ const Card = () => {
       nome: "EXAMES",
       description: "Nossa clínica também oferece uma variedade de exames de diagnóstico, utilizando equipamentos modernos e tecnologia avançada. Esses exames desempenham um papel fundamental na identificação precoce de doenças e auxiliam nossos médicos no planejamento do tratamento adequado.",
       title: "Agendar Exame",
-      path: "",
+      path: "/exames",
       image: "/exames.png"
     },
   ];
